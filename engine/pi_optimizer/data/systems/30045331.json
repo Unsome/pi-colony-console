@@ -1,0 +1,45 @@
+{
+  "system_id": 30045331,
+  "name": "Vaaralen",
+  "region": "Black Rise",
+  "security": 0.3134974241256714,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Vaaralen I",
+      "type": "Barren"
+    },
+    {
+      "name": "Vaaralen II",
+      "type": "Lava"
+    },
+    {
+      "name": "Vaaralen III",
+      "type": "Storm"
+    },
+    {
+      "name": "Vaaralen IV",
+      "type": "Storm"
+    },
+    {
+      "name": "Vaaralen V",
+      "type": "Storm"
+    },
+    {
+      "name": "Vaaralen VI",
+      "type": "Gas"
+    },
+    {
+      "name": "Vaaralen VII",
+      "type": "Temperate"
+    },
+    {
+      "name": "Vaaralen VIII",
+      "type": "Temperate"
+    },
+    {
+      "name": "Vaaralen IX",
+      "type": "Barren"
+    }
+  ]
+}
