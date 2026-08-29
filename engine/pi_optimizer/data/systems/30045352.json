@@ -1,0 +1,49 @@
+{
+  "system_id": 30045352,
+  "name": "Nisuwa",
+  "region": "Black Rise",
+  "security": 0.3094325363636017,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Nisuwa I",
+      "type": "Barren"
+    },
+    {
+      "name": "Nisuwa II",
+      "type": "Barren"
+    },
+    {
+      "name": "Nisuwa III",
+      "type": "Plasma"
+    },
+    {
+      "name": "Nisuwa IV",
+      "type": "Storm"
+    },
+    {
+      "name": "Nisuwa V",
+      "type": "Temperate"
+    },
+    {
+      "name": "Nisuwa VI",
+      "type": "Gas"
+    },
+    {
+      "name": "Nisuwa VII",
+      "type": "Barren"
+    },
+    {
+      "name": "Nisuwa VIII",
+      "type": "Gas"
+    },
+    {
+      "name": "Nisuwa IX",
+      "type": "Gas"
+    },
+    {
+      "name": "Nisuwa X",
+      "type": "Barren"
+    }
+  ]
+}
