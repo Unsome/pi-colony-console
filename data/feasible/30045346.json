@@ -1,0 +1,579 @@
+{
+  "system": {
+    "id": 30045346,
+    "name": "Kedama",
+    "region": "Black Rise",
+    "security": 0.3384644091129303,
+    "planets": [
+      "Storm",
+      "Temperate",
+      "Lava",
+      "Gas",
+      "Gas",
+      "Ice",
+      "Ice",
+      "Barren"
+    ]
+  },
+  "colony": {
+    "miners": 4,
+    "production": 1,
+    "skill": "44433 (CCU4/IC4)",
+    "lines": 2,
+    "daily_p3": 144
+  },
+  "p3s": [
+    {
+      "id": 12836,
+      "name": "Transcranial Microcontrollers",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Transcranial Microcontrollers.json",
+        "p2_split": [
+          {
+            "p2": "Nanites",
+            "aif": 4
+          },
+          {
+            "p2": "Biocells",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Reactive Metals",
+          "p0": "Base Metals",
+          "planet_type": "Lava",
+          "template": "templates/miners/Reactive Metals.json"
+        },
+        {
+          "p1": "Bacteria",
+          "p0": "Microorganisms",
+          "planet_type": "Ice",
+          "template": "templates/miners/Bacteria.json"
+        },
+        {
+          "p1": "Biofuels",
+          "p0": "Carbon Compounds",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Biofuels.json"
+        },
+        {
+          "p1": "Precious Metals",
+          "p0": "Noble Metals",
+          "planet_type": "Barren",
+          "template": "templates/miners/Precious Metals.json"
+        }
+      ]
+    },
+    {
+      "id": 28974,
+      "name": "Vaccines",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Vaccines.json",
+        "p2_split": [
+          {
+            "p2": "Viral Agent",
+            "aif": 4
+          },
+          {
+            "p2": "Livestock",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Biomass",
+          "p0": "Planktic Colonies",
+          "planet_type": "Ice",
+          "template": "templates/miners/Biomass.json"
+        },
+        {
+          "p1": "Bacteria",
+          "p0": "Microorganisms",
+          "planet_type": "Ice",
+          "template": "templates/miners/Bacteria.json"
+        },
+        {
+          "p1": "Proteins",
+          "p0": "Complex Organisms",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Proteins.json"
+        },
+        {
+          "p1": "Biofuels",
+          "p0": "Carbon Compounds",
+          "planet_type": "Barren",
+          "template": "templates/miners/Biofuels.json"
+        }
+      ]
+    },
+    {
+      "id": 2344,
+      "name": "Condensates",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Condensates.json",
+        "p2_split": [
+          {
+            "p2": "Oxides",
+            "aif": 4
+          },
+          {
+            "p2": "Coolant",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Oxygen",
+          "p0": "Noble Gas",
+          "planet_type": "Ice",
+          "template": "templates/miners/Oxygen.json"
+        },
+        {
+          "p1": "Oxidizing Compound",
+          "p0": "Reactive Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxidizing Compound.json"
+        },
+        {
+          "p1": "Water",
+          "p0": "Aqueous Liquids",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Water.json"
+        },
+        {
+          "p1": "Electrolytes",
+          "p0": "Ionic Solutions",
+          "planet_type": "Gas",
+          "template": "templates/miners/Electrolytes.json"
+        }
+      ]
+    },
+    {
+      "id": 2346,
+      "name": "Synthetic Synapses",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Synthetic Synapses.json",
+        "p2_split": [
+          {
+            "p2": "Test Cultures",
+            "aif": 4
+          },
+          {
+            "p2": "Supertensile Plastics",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Water",
+          "p0": "Aqueous Liquids",
+          "planet_type": "Gas",
+          "template": "templates/miners/Water.json"
+        },
+        {
+          "p1": "Bacteria",
+          "p0": "Microorganisms",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Bacteria.json"
+        },
+        {
+          "p1": "Oxygen",
+          "p0": "Noble Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxygen.json"
+        },
+        {
+          "p1": "Biomass",
+          "p0": "Planktic Colonies",
+          "planet_type": "Ice",
+          "template": "templates/miners/Biomass.json"
+        }
+      ]
+    },
+    {
+      "id": 9834,
+      "name": "Guidance Systems",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Temperate",
+        "template": "templates/production/30045346/Guidance Systems.json",
+        "p2_split": [
+          {
+            "p2": "Water-Cooled CPU",
+            "aif": 4
+          },
+          {
+            "p2": "Transmitter",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Water",
+          "p0": "Aqueous Liquids",
+          "planet_type": "Gas",
+          "template": "templates/miners/Water.json"
+        },
+        {
+          "p1": "Reactive Metals",
+          "p0": "Base Metals",
+          "planet_type": "Gas",
+          "template": "templates/miners/Reactive Metals.json"
+        },
+        {
+          "p1": "Plasmoids",
+          "p0": "Suspended Plasma",
+          "planet_type": "Storm",
+          "template": "templates/miners/Plasmoids.json"
+        },
+        {
+          "p1": "Chiral Structures",
+          "p0": "Non-CS Crystals",
+          "planet_type": "Lava",
+          "template": "templates/miners/Chiral Structures.json"
+        }
+      ]
+    },
+    {
+      "id": 2352,
+      "name": "Nuclear Reactors",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Nuclear Reactors.json",
+        "p2_split": [
+          {
+            "p2": "Microfiber Shielding",
+            "aif": 4
+          },
+          {
+            "p2": "Enriched Uranium",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Silicon",
+          "p0": "Felsic Magma",
+          "planet_type": "Lava",
+          "template": "templates/miners/Silicon.json"
+        },
+        {
+          "p1": "Industrial Fibers",
+          "p0": "Autotrophs",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Industrial Fibers.json"
+        },
+        {
+          "p1": "Toxic Metals",
+          "p0": "Heavy Metals",
+          "planet_type": "Ice",
+          "template": "templates/miners/Toxic Metals.json"
+        },
+        {
+          "p1": "Precious Metals",
+          "p0": "Noble Metals",
+          "planet_type": "Barren",
+          "template": "templates/miners/Precious Metals.json"
+        }
+      ]
+    },
+    {
+      "id": 17392,
+      "name": "Data Chips",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Data Chips.json",
+        "p2_split": [
+          {
+            "p2": "Supertensile Plastics",
+            "aif": 4
+          },
+          {
+            "p2": "Microfiber Shielding",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Oxygen",
+          "p0": "Noble Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxygen.json"
+        },
+        {
+          "p1": "Biomass",
+          "p0": "Planktic Colonies",
+          "planet_type": "Ice",
+          "template": "templates/miners/Biomass.json"
+        },
+        {
+          "p1": "Silicon",
+          "p0": "Felsic Magma",
+          "planet_type": "Lava",
+          "template": "templates/miners/Silicon.json"
+        },
+        {
+          "p1": "Industrial Fibers",
+          "p0": "Autotrophs",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Industrial Fibers.json"
+        }
+      ]
+    },
+    {
+      "id": 9848,
+      "name": "Robotics",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Robotics.json",
+        "p2_split": [
+          {
+            "p2": "Mechanical Parts",
+            "aif": 4
+          },
+          {
+            "p2": "Consumer Electronics",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Precious Metals",
+          "p0": "Noble Metals",
+          "planet_type": "Barren",
+          "template": "templates/miners/Precious Metals.json"
+        },
+        {
+          "p1": "Reactive Metals",
+          "p0": "Base Metals",
+          "planet_type": "Gas",
+          "template": "templates/miners/Reactive Metals.json"
+        },
+        {
+          "p1": "Toxic Metals",
+          "p0": "Heavy Metals",
+          "planet_type": "Ice",
+          "template": "templates/miners/Toxic Metals.json"
+        },
+        {
+          "p1": "Chiral Structures",
+          "p0": "Non-CS Crystals",
+          "planet_type": "Lava",
+          "template": "templates/miners/Chiral Structures.json"
+        }
+      ]
+    },
+    {
+      "id": 17898,
+      "name": "High-Tech Transmitters",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Ice",
+        "template": "templates/production/30045346/High-Tech Transmitters.json",
+        "p2_split": [
+          {
+            "p2": "Transmitter",
+            "aif": 4
+          },
+          {
+            "p2": "Polyaramids",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Plasmoids",
+          "p0": "Suspended Plasma",
+          "planet_type": "Storm",
+          "template": "templates/miners/Plasmoids.json"
+        },
+        {
+          "p1": "Chiral Structures",
+          "p0": "Non-CS Crystals",
+          "planet_type": "Lava",
+          "template": "templates/miners/Chiral Structures.json"
+        },
+        {
+          "p1": "Oxidizing Compound",
+          "p0": "Reactive Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxidizing Compound.json"
+        },
+        {
+          "p1": "Industrial Fibers",
+          "p0": "Autotrophs",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Industrial Fibers.json"
+        }
+      ]
+    },
+    {
+      "id": 2345,
+      "name": "Camera Drones",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Temperate",
+        "template": "templates/production/30045346/Camera Drones.json",
+        "p2_split": [
+          {
+            "p2": "Silicate Glass",
+            "aif": 4
+          },
+          {
+            "p2": "Rocket Fuel",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Silicon",
+          "p0": "Felsic Magma",
+          "planet_type": "Lava",
+          "template": "templates/miners/Silicon.json"
+        },
+        {
+          "p1": "Oxidizing Compound",
+          "p0": "Reactive Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxidizing Compound.json"
+        },
+        {
+          "p1": "Plasmoids",
+          "p0": "Suspended Plasma",
+          "planet_type": "Storm",
+          "template": "templates/miners/Plasmoids.json"
+        },
+        {
+          "p1": "Electrolytes",
+          "p0": "Ionic Solutions",
+          "planet_type": "Gas",
+          "template": "templates/miners/Electrolytes.json"
+        }
+      ]
+    },
+    {
+      "id": 2354,
+      "name": "Neocoms",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Neocoms.json",
+        "p2_split": [
+          {
+            "p2": "Silicate Glass",
+            "aif": 4
+          },
+          {
+            "p2": "Biocells",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Silicon",
+          "p0": "Felsic Magma",
+          "planet_type": "Lava",
+          "template": "templates/miners/Silicon.json"
+        },
+        {
+          "p1": "Oxidizing Compound",
+          "p0": "Reactive Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxidizing Compound.json"
+        },
+        {
+          "p1": "Biofuels",
+          "p0": "Carbon Compounds",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Biofuels.json"
+        },
+        {
+          "p1": "Precious Metals",
+          "p0": "Noble Metals",
+          "planet_type": "Barren",
+          "template": "templates/miners/Precious Metals.json"
+        }
+      ]
+    },
+    {
+      "id": 17136,
+      "name": "Ukomi Superconductors",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Storm",
+        "template": "templates/production/30045346/Ukomi Superconductors.json",
+        "p2_split": [
+          {
+            "p2": "Synthetic Oil",
+            "aif": 4
+          },
+          {
+            "p2": "Superconductors",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Oxygen",
+          "p0": "Noble Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxygen.json"
+        },
+        {
+          "p1": "Electrolytes",
+          "p0": "Ionic Solutions",
+          "planet_type": "Gas",
+          "template": "templates/miners/Electrolytes.json"
+        },
+        {
+          "p1": "Water",
+          "p0": "Aqueous Liquids",
+          "planet_type": "Temperate",
+          "template": "templates/miners/Water.json"
+        },
+        {
+          "p1": "Plasmoids",
+          "p0": "Suspended Plasma",
+          "planet_type": "Lava",
+          "template": "templates/miners/Plasmoids.json"
+        }
+      ]
+    }
+  ]
+}

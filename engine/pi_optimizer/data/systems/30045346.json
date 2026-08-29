@@ -1,0 +1,41 @@
+{
+  "system_id": 30045346,
+  "name": "Kedama",
+  "region": "Black Rise",
+  "security": 0.3384644091129303,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Kedama I",
+      "type": "Storm"
+    },
+    {
+      "name": "Kedama II",
+      "type": "Temperate"
+    },
+    {
+      "name": "Kedama III",
+      "type": "Lava"
+    },
+    {
+      "name": "Kedama IV",
+      "type": "Gas"
+    },
+    {
+      "name": "Kedama V",
+      "type": "Gas"
+    },
+    {
+      "name": "Kedama VI",
+      "type": "Ice"
+    },
+    {
+      "name": "Kedama VII",
+      "type": "Ice"
+    },
+    {
+      "name": "Kedama VIII",
+      "type": "Barren"
+    }
+  ]
+}
