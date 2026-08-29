@@ -1,0 +1,117 @@
+{
+  "system": {
+    "id": 30045349,
+    "name": "Rakapas",
+    "region": "Black Rise",
+    "security": 0.22278037667274475,
+    "planets": [
+      "Barren",
+      "Barren",
+      "Oceanic",
+      "Barren",
+      "Gas",
+      "Gas"
+    ]
+  },
+  "colony": {
+    "miners": 4,
+    "production": 1,
+    "skill": "44433 (CCU4/IC4)",
+    "lines": 2,
+    "daily_p3": 144
+  },
+  "p3s": [
+    {
+      "id": 12836,
+      "name": "Transcranial Microcontrollers",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Barren",
+        "template": "templates/production/30045349/Transcranial Microcontrollers.json",
+        "p2_split": [
+          {
+            "p2": "Nanites",
+            "aif": 4
+          },
+          {
+            "p2": "Biocells",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Reactive Metals",
+          "p0": "Base Metals",
+          "planet_type": "Gas",
+          "template": "templates/miners/Reactive Metals.json"
+        },
+        {
+          "p1": "Bacteria",
+          "p0": "Microorganisms",
+          "planet_type": "Barren",
+          "template": "templates/miners/Bacteria.json"
+        },
+        {
+          "p1": "Biofuels",
+          "p0": "Carbon Compounds",
+          "planet_type": "Oceanic",
+          "template": "templates/miners/Biofuels.json"
+        },
+        {
+          "p1": "Precious Metals",
+          "p0": "Noble Metals",
+          "planet_type": "Barren",
+          "template": "templates/miners/Precious Metals.json"
+        }
+      ]
+    },
+    {
+      "id": 2346,
+      "name": "Synthetic Synapses",
+      "daily_units": 144,
+      "production": {
+        "planet_type": "Barren",
+        "template": "templates/production/30045349/Synthetic Synapses.json",
+        "p2_split": [
+          {
+            "p2": "Test Cultures",
+            "aif": 4
+          },
+          {
+            "p2": "Supertensile Plastics",
+            "aif": 4
+          }
+        ],
+        "p3_aif": 2
+      },
+      "miners": [
+        {
+          "p1": "Water",
+          "p0": "Aqueous Liquids",
+          "planet_type": "Barren",
+          "template": "templates/miners/Water.json"
+        },
+        {
+          "p1": "Bacteria",
+          "p0": "Microorganisms",
+          "planet_type": "Barren",
+          "template": "templates/miners/Bacteria.json"
+        },
+        {
+          "p1": "Oxygen",
+          "p0": "Noble Gas",
+          "planet_type": "Gas",
+          "template": "templates/miners/Oxygen.json"
+        },
+        {
+          "p1": "Biomass",
+          "p0": "Planktic Colonies",
+          "planet_type": "Oceanic",
+          "template": "templates/miners/Biomass.json"
+        }
+      ]
+    }
+  ]
+}

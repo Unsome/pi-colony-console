@@ -1,0 +1,33 @@
+{
+  "system_id": 30045349,
+  "name": "Rakapas",
+  "region": "Black Rise",
+  "security": 0.22278037667274475,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Rakapas I",
+      "type": "Barren"
+    },
+    {
+      "name": "Rakapas II",
+      "type": "Barren"
+    },
+    {
+      "name": "Rakapas III",
+      "type": "Oceanic"
+    },
+    {
+      "name": "Rakapas IV",
+      "type": "Barren"
+    },
+    {
+      "name": "Rakapas V",
+      "type": "Gas"
+    },
+    {
+      "name": "Rakapas VI",
+      "type": "Gas"
+    }
+  ]
+}
