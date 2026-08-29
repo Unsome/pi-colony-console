@@ -1,0 +1,33 @@
+{
+  "system_id": 30045348,
+  "name": "Notoras",
+  "region": "Black Rise",
+  "security": 0.18879063427448273,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Notoras I",
+      "type": "Barren"
+    },
+    {
+      "name": "Notoras II",
+      "type": "Oceanic"
+    },
+    {
+      "name": "Notoras III",
+      "type": "Temperate"
+    },
+    {
+      "name": "Notoras IV",
+      "type": "Gas"
+    },
+    {
+      "name": "Notoras V",
+      "type": "Oceanic"
+    },
+    {
+      "name": "Notoras VI",
+      "type": "Gas"
+    }
+  ]
+}
