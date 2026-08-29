@@ -1,0 +1,18 @@
+{
+  "system_id": 30045351,
+  "name": "Iwisoda",
+  "region": "Black Rise",
+  "constellation": "Okakuola",
+  "security": 0.2,
+  "source": "DOTLAN celestials (2026-08-27)",
+  "planets": [
+    {"name": "Iwisoda I",    "type": "Plasma"},
+    {"name": "Iwisoda II",   "type": "Plasma"},
+    {"name": "Iwisoda III",  "type": "Lava"},
+    {"name": "Iwisoda IV",   "type": "Barren"},
+    {"name": "Iwisoda V",    "type": "Gas"},
+    {"name": "Iwisoda VI",   "type": "Gas"},
+    {"name": "Iwisoda VII",  "type": "Oceanic"},
+    {"name": "Iwisoda VIII", "type": "Ice"}
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "_meta": {
+    "source": "DalShooth/EVE_PI_Templates (parsed) + canonical tables",
+    "note": "P0/P1/planet-type tables are canonical; P2+ recipes parsed from templates."
+  },
+  "p0_names": {
+    "2073": "Microorganisms",
+    "2267": "Base Metals",
+    "2268": "Aqueous Liquids",
+    "2270": "Noble Metals",
+    "2272": "Heavy Metals",
+    "2286": "Planktic Colonies",
+    "2287": "Complex Organisms",
+    "2288": "Carbon Compounds",
+    "2305": "Autotrophs",
+    "2306": "Non-CS Crystals",
+    "2307": "Felsic Magma",
+    "2308": "Suspended Plasma",
+    "2309": "Ionic Solutions",
+    "2310": "Noble Gas",
+    "2311": "Reactive Gas"
+  },
+  "p1_names": {
+    "2395": "Proteins",
+    "2399": "Precious Metals",
+    "2398": "Reactive Metals",
+    "2390": "Electrolytes",
+    "3779": "Biomass",
+    "2393": "Bacteria",
+    "2396": "Biofuels",
+    "2389": "Plasmoids",
+    "2400": "Toxic Metals",
+    "3645": "Water",
+    "2392": "Oxidizing Compound",
+    "2397": "Industrial Fibers",
+    "2401": "Chiral Structures",
+    "9828": "Silicon",
+    "3683": "Oxygen"
+  },
+  "p0_to_p1": {
+    "2287": 2395,
+    "2270": 2399,
+    "2267": 2398,
+    "2309": 2390,
+    "2286": 3779,
+    "2073": 2393,
+    "2288": 2396,
+    "2308": 2389,
+    "2272": 2400,
+    "2268": 3645,
+    "2311": 2392,
+    "2305": 2397,
+    "2306": 2401,
+    "2307": 9828,
+    "2310": 3683
+  },
+  "p1_to_p0": {
+    "2395": 2287,
+    "2399": 2270,
+    "2398": 2267,
+    "2390": 2309,
+    "3779": 2286,
+    "2393": 2073,
+    "2396": 2288,
+    "2389": 2308,
+    "2400": 2272,
+    "3645": 2268,
+    "2392": 2311,
+    "2397": 2305,
+    "2401": 2306,
+    "9828": 2307,
+    "3683": 2310
+  },
+  "planet_type_names": {
+    "11": "Temperate",
+    "12": "Ice",
+    "13": "Gas",
+    "2014": "Oceanic",
+    "2015": "Lava",
+    "2016": "Barren",
+    "2017": "Storm",
+    "2063": "Plasma"
+  },
+  "planet_p0": {
+    "Temperate": [
+      "Aqueous Liquids",
+      "Autotrophs",
+      "Carbon Compounds",
+      "Complex Organisms",
+      "Microorganisms"
+    ],
+    "Ice": [
+      "Aqueous Liquids",
+      "Heavy Metals",
+      "Microorganisms",
+      "Noble Gas",
+      "Planktic Colonies"
+    ],
+    "Gas": [
+      "Aqueous Liquids",
+      "Base Metals",
+      "Ionic Solutions",
+      "Noble Gas",
+      "Reactive Gas"
+    ],
+    "Oceanic": [
+      "Aqueous Liquids",
+      "Carbon Compounds",
+      "Complex Organisms",
+      "Microorganisms",
+      "Planktic Colonies"
+    ],
+    "Lava": [
+      "Base Metals",
+      "Felsic Magma",
+      "Heavy Metals",
+      "Non-CS Crystals",
+      "Suspended Plasma"
+    ],
+    "Barren": [
+      "Aqueous Liquids",
+      "Base Metals",
+      "Carbon Compounds",
+      "Microorganisms",
+      "Noble Metals"
+    ],
+    "Storm": [
+      "Aqueous Liquids",
+      "Base Metals",
+      "Ionic Solutions",
+      "Noble Gas",
+      "Suspended Plasma"
+    ],
+    "Plasma": [
+      "Base Metals",
+      "Heavy Metals",
+      "Noble Metals",
+      "Non-CS Crystals",
+      "Suspended Plasma"
+    ]
+  },
+  "structure": {
+    "3063": "Extractor Control Unit",
+    "3064": "Extractor Control Unit",
+    "3067": "Extractor Control Unit",
+    "3068": "Extractor Control Unit",
+    "2490": "Basic Industry Facility",
+    "2473": "Basic Industry Facility",
+    "2474": "Advanced Industry Facility",
+    "2475": "High-Tech Production Plant"
+  },
+  "commodities": {
+    "2395": {
+      "name": "Proteins",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2399": {
+      "name": "Precious Metals",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2398": {
+      "name": "Reactive Metals",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2390": {
+      "name": "Electrolytes",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "3779": {
+      "name": "Biomass",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2393": {
+      "name": "Bacteria",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2396": {
+      "name": "Biofuels",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2389": {
+      "name": "Plasmoids",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2400": {
+      "name": "Toxic Metals",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "3645": {
+      "name": "Water",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2392": {
+      "name": "Oxidizing Compound",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2397": {
+      "name": "Industrial Fibers",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2401": {
+      "name": "Chiral Structures",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "9828": {
+      "name": "Silicon",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "3683": {
+      "name": "Oxygen",
+      "tier": 1,
+      "out_qty": 20,
+      "inputs": {}
+    },
+    "2875": {
+      "name": "Sterile Conduits",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2351": 6,
+        "28974": 6,
+        "3645": 40
+      }
+    },
+    "9836": {
+      "name": "Consumer Electronics",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2400": 40,
+        "2401": 40
+      }
+    },
+    "44": {
+      "name": "Enriched Uranium",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2400": 40,
+        "2399": 40
+      }
+    },
+    "12836": {
+      "name": "Transcranial Microcontrollers",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2463": 10,
+        "2329": 10
+      }
+    },
+    "2871": {
+      "name": "Recursive Computing Module",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "9834": 6,
+        "2346": 6,
+        "12836": 6
+      }
+    },
+    "9830": {
+      "name": "Rocket Fuel",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2389": 40,
+        "2390": 40
+      }
+    },
+    "2361": {
+      "name": "Hermetic Membranes",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2321": 10,
+        "15317": 10
+      }
+    },
+    "2360": {
+      "name": "Industrial Explosives",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3695": 10,
+        "3693": 10
+      }
+    },
+    "28974": {
+      "name": "Vaccines",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3775": 10,
+        "3725": 10
+      }
+    },
+    "15317": {
+      "name": "Genetically Enhanced Livestock",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2395": 40,
+        "3779": 40
+      }
+    },
+    "2344": {
+      "name": "Condensates",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2317": 10,
+        "9832": 10
+      }
+    },
+    "2867": {
+      "name": "Broadcast Node",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "17392": 6,
+        "17898": 6,
+        "2354": 6
+      }
+    },
+    "2366": {
+      "name": "Hazmat Detection Systems",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "9840": 10,
+        "3775": 10,
+        "3695": 10
+      }
+    },
+    "9832": {
+      "name": "Coolant",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3645": 40,
+        "2390": 40
+      }
+    },
+    "2872": {
+      "name": "Self-Harmonizing Power Core",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2345": 6,
+        "2361": 6,
+        "2352": 6
+      }
+    },
+    "2321": {
+      "name": "Polyaramids",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2392": 40,
+        "2397": 40
+      }
+    },
+    "2870": {
+      "name": "Organic Mortar Applicators",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2344": 6,
+        "9848": 6,
+        "2393": 40
+      }
+    },
+    "2346": {
+      "name": "Synthetic Synapses",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2319": 10,
+        "2312": 10
+      }
+    },
+    "2367": {
+      "name": "Cryoprotectant Solution",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3691": 10,
+        "2319": 10,
+        "3693": 10
+      }
+    },
+    "2319": {
+      "name": "Test Cultures",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3645": 40,
+        "2393": 40
+      }
+    },
+    "2876": {
+      "name": "Wetware Mainframe",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2358": 6,
+        "2367": 6,
+        "2349": 6
+      }
+    },
+    "9842": {
+      "name": "Miniature Electronics",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "9828": 40,
+        "2401": 40
+      }
+    },
+    "9846": {
+      "name": "Planetary Vehicles",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3689": 10,
+        "2312": 10,
+        "9842": 10
+      }
+    },
+    "3691": {
+      "name": "Synthetic Oil",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3683": 40,
+        "2390": 40
+      }
+    },
+    "3695": {
+      "name": "Polytextiles",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2397": 40,
+        "2396": 40
+      }
+    },
+    "2348": {
+      "name": "Gel-Matrix Biopaste",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2317": 10,
+        "9838": 10,
+        "2329": 10
+      }
+    },
+    "2463": {
+      "name": "Nanites",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2398": 40,
+        "2393": 40
+      }
+    },
+    "9834": {
+      "name": "Guidance Systems",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2328": 10,
+        "9840": 10
+      }
+    },
+    "2352": {
+      "name": "Nuclear Reactors",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2327": 10,
+        "44": 10
+      }
+    },
+    "3697": {
+      "name": "Silicate Glass",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "9828": 40,
+        "2392": 40
+      }
+    },
+    "3693": {
+      "name": "Fertilizer",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2395": 40,
+        "2393": 40
+      }
+    },
+    "17392": {
+      "name": "Data Chips",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "2312": 10,
+        "2327": 10
+      }
+    },
+    "9848": {
+      "name": "Robotics",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3689": 10,
+        "9836": 10
+      }
+    },
+    "3689": {
+      "name": "Mechanical Parts",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2399": 40,
+        "2398": 40
+      }
+    },
+    "2317": {
+      "name": "Oxides",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3683": 40,
+        "2392": 40
+      }
+    },
+    "3828": {
+      "name": "Construction Blocks",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2400": 40,
+        "2398": 40
+      }
+    },
+    "2869": {
+      "name": "Nano-Factory",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2360": 6,
+        "17136": 6,
+        "2398": 40
+      }
+    },
+    "2329": {
+      "name": "Biocells",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2396": 40,
+        "2399": 40
+      }
+    },
+    "2327": {
+      "name": "Microfiber Shielding",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "9828": 40,
+        "2397": 40
+      }
+    },
+    "2328": {
+      "name": "Water-Cooled CPU",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3645": 40,
+        "2398": 40
+      }
+    },
+    "2312": {
+      "name": "Supertensile Plastics",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3683": 40,
+        "3779": 40
+      }
+    },
+    "2351": {
+      "name": "Smartfab Units",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "9842": 10,
+        "3828": 10
+      }
+    },
+    "17898": {
+      "name": "High-Tech Transmitters",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "9840": 10,
+        "2321": 10
+      }
+    },
+    "2358": {
+      "name": "Biotech Research Reports",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3725": 10,
+        "2463": 10,
+        "3828": 10
+      }
+    },
+    "2349": {
+      "name": "Supercomputers",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "9836": 10,
+        "2328": 10,
+        "9832": 10
+      }
+    },
+    "9838": {
+      "name": "Superconductors",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3645": 40,
+        "2389": 40
+      }
+    },
+    "3775": {
+      "name": "Viral Agent",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "3779": 40,
+        "2393": 40
+      }
+    },
+    "9840": {
+      "name": "Transmitter",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2389": 40,
+        "2401": 40
+      }
+    },
+    "3725": {
+      "name": "Livestock",
+      "tier": 2,
+      "out_qty": 5,
+      "inputs": {
+        "2395": 40,
+        "2396": 40
+      }
+    },
+    "2868": {
+      "name": "Integrity Response Drones",
+      "tier": 4,
+      "out_qty": 1,
+      "inputs": {
+        "2366": 6,
+        "2348": 6,
+        "9846": 6
+      }
+    },
+    "2345": {
+      "name": "Camera Drones",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3697": 10,
+        "9830": 10
+      }
+    },
+    "2354": {
+      "name": "Neocoms",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3697": 10,
+        "2329": 10
+      }
+    },
+    "17136": {
+      "name": "Ukomi Superconductors",
+      "tier": 3,
+      "out_qty": 3,
+      "inputs": {
+        "3691": 10,
+        "9838": 10
+      }
+    }
+  }
+}

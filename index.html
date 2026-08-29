@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>PI Colony Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 비밀번호 게이트 (장식용 - 정적 사이트라 진짜 보안 아님) -->
+<div id="gate" class="gate">
+  <div class="gate-box">
+    <div class="gate-mark">◎</div>
+    <h1 class="gate-title">PI Colony Console</h1>
+    <p class="gate-sub">Black Rise 행성산업 콜로니 설계</p>
+    <div class="gate-row">
+      <input id="gate-input" type="password" placeholder="access key" autocomplete="off" spellcheck="false">
+      <button id="gate-btn">입장</button>
+    </div>
+    <p id="gate-err" class="gate-err"></p>
+  </div>
+</div>
+
+<!-- 본체 -->
+<div id="app" class="app hidden">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">◎</span>
+      <span class="brand-name">PI Colony Console</span>
+    </div>
+    <div class="topbar-right">
+      <label class="sys-label" for="system-select">성계</label>
+      <select id="system-select"></select>
+      <span id="price-stamp" class="price-stamp"></span>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="system-head" id="system-head"></section>
+
+    <div class="layout">
+      <section class="panel list-panel">
+        <div class="panel-head">
+          <h2>생산 가능 P3</h2>
+          <span class="panel-note">일일 생산가치 순 · 클릭하면 콜로니 구성</span>
+        </div>
+        <ol id="p3-list" class="p3-list"></ol>
+      </section>
+
+      <section class="panel detail-panel" id="detail-panel">
+        <div class="detail-empty" id="detail-empty">왼쪽에서 P3를 선택하면 마이너 4 + 생산 1 행성 구성이 여기 표시됩니다.</div>
+        <div id="detail" class="detail hidden"></div>
+      </section>
+    </div>
+
+    <footer class="footnote">
+      <p><strong>준비물</strong> — EVE 설정 &gt; Feature Previews에서 "Planetary Industry Templates"를 켜야 임포트가 뜹니다. 복사 버튼 → 게임 내 Open Templates → Import &amp; Export → Load from Clipboard.</p>
+      <p><strong>전제</strong> — 마이너 4 + 생산 1은 <em>같은 성계</em>에 두고, 마이너의 P1을 생산 행성 런치패드로 하울링합니다. 스킬 44433(CCU4/IC4), 표준 농도 가정. 산출은 명목값이며 POCO 수출세·마켓 뎁스·잉여 P1 판매 미반영.</p>
+    </footer>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
