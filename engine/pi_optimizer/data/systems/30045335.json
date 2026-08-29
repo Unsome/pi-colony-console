@@ -1,0 +1,41 @@
+{
+  "system_id": 30045335,
+  "name": "Teskanen",
+  "region": "Black Rise",
+  "security": 0.2871720492839813,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Teskanen I",
+      "type": "Lava"
+    },
+    {
+      "name": "Teskanen II",
+      "type": "Barren"
+    },
+    {
+      "name": "Teskanen III",
+      "type": "Gas"
+    },
+    {
+      "name": "Teskanen IV",
+      "type": "Gas"
+    },
+    {
+      "name": "Teskanen V",
+      "type": "Gas"
+    },
+    {
+      "name": "Teskanen VI",
+      "type": "Gas"
+    },
+    {
+      "name": "Teskanen VII",
+      "type": "Barren"
+    },
+    {
+      "name": "Teskanen VIII",
+      "type": "Oceanic"
+    }
+  ]
+}
