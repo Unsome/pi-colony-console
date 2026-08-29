@@ -31,16 +31,16 @@ engine/                              오프라인 스크립트 (사이트가 서
 
 ```bash
 python -m http.server 8099      # 저장소 루트에서
-# http://localhost:8099  (비밀번호: soju9512)
+# http://localhost:8099  (비밀번호: )
 ```
 
 클립보드 복사는 HTTPS 또는 localhost 에서만 동작(브라우저 정책).
 
 ## GitHub Pages 배포
 
-1. 이 폴더를 GitHub 저장소로 push (private 권장 - 비번은 장식일 뿐이라 소스에 노출됨).
+1. 이 폴더를 GitHub 저장소로 push 
 2. Settings → Pages → Source: **Deploy from a branch**, Branch: `main` / `/ (root)`.
-3. 몇 분 뒤 `https://<user>.github.io/<repo>/` 로 접속. 비번 soju9512.
+3. 몇 분 뒤 `https://<user>.github.io/<repo>/` 로 접속. 비번 .
 
 ### 매일 가격 갱신 (GitHub Actions)
 
@@ -71,8 +71,6 @@ ESI로 행성 구성을 조회해 feasible + 생산 템플릿을 생성하고 �
 
 ## 한계 / 주의
 
-- **비밀번호는 장식이다.** 정적 사이트라 app.js에 평문으로 있다. 진짜 가림이 필요하면
-  Cloudflare Access(무료)를 Pages 앞에 둘 것.
 - 산출은 표준 농도·44433 스킬 명목값(144/일 = 2라인). POCO 수출세·마켓 뎁스·잉여 P1 미반영.
 - 3입력 P3 6종은 미너 4개로 P1 6종을 못 대 배제(구조적).
 - 생산 템플릿 PG는 행성 지름 의존. 현재 인프라 여유 전제로 배정 타입 Pln만 맞춰 생성.
