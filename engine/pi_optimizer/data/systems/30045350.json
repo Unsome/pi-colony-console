@@ -1,0 +1,49 @@
+{
+  "system_id": 30045350,
+  "name": "Teimo",
+  "region": "Black Rise",
+  "security": 0.27320823073387146,
+  "source": "ESI",
+  "planets": [
+    {
+      "name": "Teimo I",
+      "type": "Barren"
+    },
+    {
+      "name": "Teimo II",
+      "type": "Lava"
+    },
+    {
+      "name": "Teimo III",
+      "type": "Barren"
+    },
+    {
+      "name": "Teimo IV",
+      "type": "Storm"
+    },
+    {
+      "name": "Teimo V",
+      "type": "Gas"
+    },
+    {
+      "name": "Teimo VI",
+      "type": "Gas"
+    },
+    {
+      "name": "Teimo VII",
+      "type": "Barren"
+    },
+    {
+      "name": "Teimo VIII",
+      "type": "Gas"
+    },
+    {
+      "name": "Teimo IX",
+      "type": "Barren"
+    },
+    {
+      "name": "Teimo X",
+      "type": "Barren"
+    }
+  ]
+}
